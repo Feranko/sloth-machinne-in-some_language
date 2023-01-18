@@ -1,15 +1,7 @@
 #include <stdio.h>
-#include <time.h>
+#include <stdlib.h>
 #include <conio.h>
 
-void delay(int number_of_seconds)
-{
-    int milli_seconds = 200 * number_of_seconds;
- 
-    clock_t start_time = clock();
- 
-    while (clock() < start_time + milli_seconds);
-}
 int main(){
 	int i;
 	int j;
@@ -26,7 +18,6 @@ int main(){
 	while (k <= j-1){
 	printf("spin n'=%d\n",k+1);
 	for(i=0;i<5;i++){
-		delay(1);
 		a[i]=1+rand()%3;
 		b[i]=1+rand()%3;
 		c[i]=1+rand()%3;
