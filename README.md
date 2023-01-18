@@ -1,4 +1,4 @@
-# sloth-machinne-in-C-pythob-rust
+# sloth-machinne-in-C-pythob-rust-java
 sloth machine
 
 to run the rust code you need 2 think 
