@@ -1,4 +1,4 @@
-# sloth-machinne-in-C-pythob-rust-java
+# sloth-machinne-in-C-pythob-rust-java-C++
 sloth machine
 
 to run the rust code you need 2 think 
@@ -26,3 +26,5 @@ for now you need to run this file , to make this use the current comand cd to go
 
 Always in linux best system:
 oh yes if you won't to try to run the c file install the gcc , with the current comand sudo apt install gcc , ok after you install it run the current comand (gcc file.c -o file) , for run you write ./file because now is a exeguible file
+
+To build the cpp file you can do that in alread in the real two system Linux and windows , you need to install the MinGW package https://sourceforge-net.translate.goog/projects/mingw/?_x_tr_sl=en&_x_tr_tl=it&_x_tr_hl=it&_x_tr_pto=sc <= you can download here , put ready to all voices you see ,this for windows and for linux you need to use comand (sudo apt update && sudo apt install g++) I think in Arch is that ( sudo pacman -Syu && sudo pacman -Sy g++) <= first to update repository and second to instal the libraries ; to build file you use g++ "name file.cpp" -o "new name file".
