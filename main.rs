@@ -1,21 +1,17 @@
 use rand::Rng;
 use std::io;
 fn spin(){
-    //sistema input
     let mut stringa = String::new();
     let number:i32 = 0;
     io::stdin().read_line(&mut stringa).expect("isn't a string ");
     let mut number:i32 = stringa.trim().parse().expect("can't be converted");
-    //dichiarazioni di variabili
     let mut a:[i32; 5] = [0; 5];
     let mut b:[i32; 5] = [0; 5];
     let mut c:[i32; 5] = [0; 5];
     let mut win:i32 = 0;
     let mut lose:i32 = 0;
-    //ciclo randomizzazione
     let d:i32=0;
     let e:i32=0;
-
     for d in 1..1+number{
         println!("----{}----",d);
         for e in 1..5{
