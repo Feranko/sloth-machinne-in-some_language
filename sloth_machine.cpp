@@ -24,6 +24,10 @@ int spin(){
                cout<<"you win"<<endl;
                win = win + 1; 
             }
+            else{
+               cout<<"you lose"<<endl;
+               lose=lose+1;
+            }
         }
         else{
             cout<<"you lose"<<endl;
