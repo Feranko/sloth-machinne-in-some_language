@@ -26,7 +26,7 @@ end
 def main
   puts "\033[31minput \033[33mend\033[31m to end the game"
   loop do
-    puts "\033[32m--int the number of spin--\033[37m"
+    puts "\n\033[32m--int the number of spin--\033[37m\n"
     user_input = gets.chomp
     if user_input == ""
       puts "invalid input"
